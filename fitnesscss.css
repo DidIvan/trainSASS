@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("img/29068543.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed; /*0фон зафиксирован, не прокручивается*/
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.wrapper {
+    width: 970px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 0px 45px;
+}
+
+/*HEADER*/
+.header {
+    padding-top: 20px;
+}
+
+.menu {
+    background-color: #1d1d1d;
+}
+
+.menu li {
+    float: left;
+    list-style: none;
+}
+
+.menu a {
+    color: #fff;
+    line-height: 40px;
+    text-decoration: none;
+    display: block;
+    padding: 0 40px;
+    font-size: 15px;
+    /*добавляем две прозрачные границы чтобы при наведении на ссылку блок не прыгал в сторону*/
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+.menu a:hover {
+    background-color: #303030;
+    border-left: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+    transition: 1s all;
+}
+
+/*Убираем выпадание блоков, можно также было использовать {position:relative;overflow:hidden;}*/
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+/*Content*/
+.content {
+    margin-top: 10px;
+}
+
+.sidebar {
+    width: 240px;
+    float: left;
+}
+
+.side-menu {
+    border: 1px solid #747474;
+
+}
+
+.side-menu li {
+    border-top: 1px solid #747474;
+    list-style: none;
+}
+
+.side-menu li:first-child {
+    border: none;
+}
+
+.side-menu a {
+    line-height: 40px;
+    display: block;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #747474;
+    transition: 0.2s all; /*если что-то изменяется то изменение будет плавное */
+}
+
+.side-menu a:hover {
+    padding-left: 35px;
+    font-weight: bold;
+}
+
+.product {
+    width: 680px;
+    float: right;
+}
+
+.product img {
+    width: 680px;
+}
+
+.product-description {
+    font-size: 13px;
+    color: #080708;
+    line-height: 21px;
+}
+
+/*Footer-----------------------------------------*/
+
+.footer {
+    margin-top: 20px;
+    background-color: #1d1d1d;
+}
+
+.footer-menu {
+
+}
+
+.footer-menu .copyrights {
+    float: right;
+}
+
+.footer-menu li {
+    color: #fff;
+    list-style: none;
+    float: left;
+    line-height: 40px;
+    padding: 10px;
+}
+
+.footer-menu a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+/*li:last-child:{display:inline;}*/
