@@ -1,8 +1,29 @@
+$main-font: Tahoma, Arial, sans-serif;
 body {
-  background: black;
+  body {
+    /*0фон зафиксирован, не прокручивается*/
+    background: url("img/29068543.jpg") repeat fixed;
+    font-family: $main-font;
+  }
 }
 
-body {
-  color: red;
-  padding-left: 15px;
+.wrapper {
+  width: 970px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 0 45px;
+}
+
+header {
+
+  h1 {
+  }
+
+  ul {
+  }
+  li {
+  }
+  a {
+  }
+
 }

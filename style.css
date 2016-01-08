@@ -1,8 +1,13 @@
-body {
-  background: black; }
+@charset "UTF-8";
+body body {
+  /*0Їюэ чрЇшъёшЁютрэ, эх яЁюъЁєўштрхЄё */
+  background: url("img/29068543.jpg") repeat fixed;
+  font-family: Tahoma, Arial, sans-serif; }
 
-body {
-  color: red;
-  padding-left: 15px; }
+.wrapper {
+  width: 970px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 0 45px; }
 
 /*# sourceMappingURL=style.css.map */
